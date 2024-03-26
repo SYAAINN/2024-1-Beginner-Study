@@ -2,11 +2,11 @@
 
 #### 학습 목표 : Git 과 GitHub 의 큰 흐름을 파악한다.
 
-Git ?  
+**Git ?**  
 : 버전 관리 및 협업을 위해 사용하는 VCS(Version Control System)이다.  
 : 무엇을 누가 언제 어떻게 수정하였는가 ?
 
-[파일의 생명주기]
+**[파일의 생명주기]**
 
 1. Untracked  
    : Git 으로 추적되지 않는 상태
@@ -17,7 +17,7 @@ Git ?
 4. Tracked - Staged  
    : 변경사항이 commit 될 준비가 된 상태
 
-[Git의 영역]
+**[Git의 영역]**
 
 1. Working Directory  
    : 내가 작업하는 공간. 폴더.  
@@ -57,24 +57,23 @@ Git ?
 
     </aside>
 
-    📌 `git add <파일/디렉토리 경로>`
+📌 `git add <파일/디렉토리 경로>`
 
-    : 작업 디렉토리 내 변경 내용의 일부만 **스테이징 영역**에 추가하기 위해 사용한다.
+: 작업 디렉토리 내 변경 내용의 일부만 **스테이징 영역**에 추가하기 위해 사용한다.
 
-    📌 `git add -p`
+📌 `git add -p`
 
-    : 각 변경 사항을 터미널에서 눈으로 하나씩 확인하며 **스테이징**하거나 제외 가능
+: 각 변경 사항을 터미널에서 눈으로 하나씩 확인하며 **스테이징**하거나 제외 가능
 
-    : 많은 변경 내용을 여러 개의 변경 기록으로 나누어서 남기고 싶을때 유용
+: 많은 변경 내용을 여러 개의 변경 기록으로 나누어서 남기고 싶을때 유용
 
-    📌 `git status`
+📌 `git status`
 
-    : `git add` 와 세트같은 명령어
+: `git add` 와 세트같은 명령어
 
-    : 작업 디렉토리와 **스테이징 영역**의 상태를 확인하기 위해 사용한다.
+: 작업 디렉토리와 **스테이징 영역**의 상태를 확인하기 위해 사용한다.
 
-    : `git status`의 3가지 영역
-
+: `git status`의 3가지 영역
 
     <aside>
     💡 Staging Area (스테이징 영역) ?
@@ -90,9 +89,9 @@ Git ?
 
     </aside>
 
-    📌 `git commit -m "commit massage"`
+📌 `git commit -m "commit massage"`
 
-    : 스테이징 영역에서 Git 변경 이력으로 이동. 최종 반영하는 작업
+: 스테이징 영역에서 Git 변경 이력으로 이동. 최종 반영하는 작업
 
     <aside>
     💡 commit massage 작성?
@@ -101,26 +100,26 @@ Git ?
     따라서 type : subject 형식으로 작성한다.
 
     [type]
-    feat 새로운 기능 추가 / refactor 기존 코드 개선 / fix 버그 수정
-    chore 코드 외 설정 변경 / docs 문서화 / test 테스트 코드 등
+    feat  새로운 기능 추가  / refactor 기존 코드 개선 / fix  버그 수정
+    chore 코드 외 설정 변경 / docs     문서화        / test 테스트 코드 등
 
     </aside>
 
-    📌 `git log`
+📌 `git log`
 
-    : commit 이 정상적으로 되었는 지 확인
+: commit 이 정상적으로 되었는 지 확인
 
-    📌 `git push origin (branch name)`
+📌 `git push origin (branch name)`
 
-    : Git 변경 이력에서 GitHub repo 의 원하는 브랜치로 이동(push)
+: Git 변경 이력에서 GitHub repo 의 원하는 브랜치로 이동(push)
 
-    📌 `git rm —cached <file>`
+📌 `git rm —cached <file>`
 
-    : unstage 로 되돌리기
+: unstage 로 되돌리기
 
-    📌 `rm -r .git`
+📌 `rm -r .git`
 
-    : git 으로 관리 중단
+: git 으로 관리 중단
 
 **실습링크**
 : <https://github.com/SYAAINN/SYAAINN.git>
