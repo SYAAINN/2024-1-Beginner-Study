@@ -2,34 +2,34 @@
 
 #### 학습 목표 : Git 과 GitHub 의 큰 흐름을 파악한다.
 
-Git ?\n
-: 버전 관리 및 협업을 위해 사용하는 VCS(Version Control System)이다.
+Git ?  
+: 버전 관리 및 협업을 위해 사용하는 VCS(Version Control System)이다.  
 : 무엇을 누가 언제 어떻게 수정하였는가 ?
 
 [파일의 생명주기]
 
-1. Untracked
+1. Untracked  
    : Git 으로 추적되지 않는 상태
-2. Tracked - Unmodified
+2. Tracked - Unmodified  
    : 변경 사항이 없는 상태
-3. Tracked - Moditied
+3. Tracked - Moditied  
    : 변경 사항이 있는 상태
-4. Tracked - Staged
+4. Tracked - Staged  
    : 변경사항이 commit 될 준비가 된 상태
 
 [Git의 영역]
 
-1. Working Directory
-   : 내가 작업하는 공간. 폴더.
+1. Working Directory  
+   : 내가 작업하는 공간. 폴더.  
    : 변경사항이 생기면 Modified 상태를 add 하여 staging
-2. Staging Area
-   : Repo로 Push 되기 전 commit 되기를 기다리는 공간.
+2. Staging Area  
+   : Repo로 Push 되기 전 commit 되기를 기다리는 공간.  
    : 변경사항을 commit 하여 Local Repo로 이동
-3. Repository
-   : push 하면 도착하는 GitHub 상에 기록되는 공간.
-   3-1. Local Repo
-   : commit 하면 도착
-   3-2. Remote Repo
+3. Repository  
+   : push 하면 도착하는 GitHub 상에 기록되는 공간.  
+   3-1. Local Repo  
+   : commit 하면 도착  
+   3-2. Remote Repo  
    : commit 후 push 하면 도착
 
    - **Git 명령어 모음**
