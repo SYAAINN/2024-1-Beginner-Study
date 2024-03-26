@@ -2,7 +2,7 @@
 
 #### 학습 목표 : Git 과 GitHub 의 큰 흐름을 파악한다.
 
-Git ?
+Git ?\n
 : 버전 관리 및 협업을 위해 사용하는 VCS(Version Control System)이다.
 : 무엇을 누가 언제 어떻게 수정하였는가 ?
 
