@@ -4,5 +4,17 @@
 
 ---
 
+📌 issue
+:
+
+📌 branch
+:
+
+📌 pull request
+:
+
+📌 merge
+:
+
 실습링크⬇️
 <https://github.com/SYAAINN/2024-1-Beginner-Study/pull/2>
