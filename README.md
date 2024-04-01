@@ -45,3 +45,11 @@ Git/GitHub에 대해 공부하고 실습하는 스터디입니다.
 - Commit을 되돌리는 방법, 기타 Git의 기능들
 
 - GitFlow, 기타 GitHub에서 사용 가능한 기능들
+
+---
+
+<2주차 실습 내용>
+
+- WIL2 작성
+
+- Issue, branch, pull request, merge 실습
