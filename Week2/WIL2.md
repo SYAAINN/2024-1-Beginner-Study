@@ -91,4 +91,5 @@
 ---
 
 **[실습 링크]** ⬇️
-https://github.com/SYAAINN/2024-1-Beginner-Study/pull/10
+
+<https://github.com/SYAAINN/2024-1-Beginner-Study/pull/10>
