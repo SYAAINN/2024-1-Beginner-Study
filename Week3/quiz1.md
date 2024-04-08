@@ -11,27 +11,27 @@ GDSC는 무엇의 약자인지 적으시오.
 Git에서 파일의 상태는 크게 untracked와 tracked로 나눌 수 있다.  
 그렇다면 tracked에는 어떤 상태가 있는지 모두 적으시오.
 
-- 답: Working Directory, Staged Area,
+- 답: Changes not to be committed, Staged
 
 ### Q2
 
 Git에는 세 가지 영역이 있다.  
 세 가지 영역을 모두 나열하시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: Working Directory, Staging Area, Repository
 
 ### Q3
 
 현재 우리는 `main`브랜치에 있다.  
 `develop`이라는 브랜치를 새로 만들고 이동까지 한번에 할 수 있는 명령어를 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: git checkout -b develope
 
 ### Q4
 
 Working Directory에 있는 파일들을 모두 Staging Area에 추가할 수 있는 명령어를 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: git add .
 
 ### Q5
 
@@ -43,7 +43,9 @@ Working Directory에 있는 파일들을 모두 Staging Area에 추가할 수 �
 
 위의 세 가지가 어떤 차이가 있는지 간단히 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: 1 -> 두 브랜치를 공통 부모로 하는 새로운 commit 을 만듦.
+  2 -> commit 들을 하나로 squash 하여 병합.
+  3 -> commit 의 base를 재설정해서 모두 새로운 커밋으로 변경.
 
 ### Q6
 
@@ -51,7 +53,7 @@ Working Directory에 있는 파일들을 모두 Staging Area에 추가할 수 �
 첫 줄에 `a1s2d3f (HEAD -> develop) docs: readme 추가`라는 log가 찍혔다.
 알 수 있는 사실을 모두 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답:
 
 ### Q7
 
@@ -68,7 +70,7 @@ s2d3f4g fourth commit
 이때, fourth commit까지 제거하고 fourth commit과 fifth commit의 변경 사항은
 Staging Area에 남아 있길 바란다면 reset을 어떤 옵션과 함께 사용하면 되는지 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: git reset --soft 345hj26
 
 ### Q8
 
@@ -85,11 +87,12 @@ s2d3f4g fourth commit
 reset은 너무 위험하니 revert를 사용하려고 하여 `fifth commit`을 되돌리고 싶다면
 어떤 명령어를 사용하면 되는지 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: git revert a1s2d3f
 
 ### Q9
 
 여러 사람이 협업하는 프로젝트에서 커밋을 되돌려야 한다.  
 reset과 revert 중에 어떤 것을 선택할 것인지를 그 이유와 함께 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: reset은 commit 기록을 삭제하기 때문에 위험하다.
+  새로운 commit을 생성하여 되돌리는 revert를 선택하는게 더 안전하다.
