@@ -11,7 +11,7 @@ GDSC는 무엇의 약자인지 적으시오.
 Git에서 파일의 상태는 크게 untracked와 tracked로 나눌 수 있다.  
 그렇다면 tracked에는 어떤 상태가 있는지 모두 적으시오.
 
-- 답: Changes not to be committed, Staged
+- 답: Changes to be committed, Changes not staged for commit
 
 ### Q2
 
@@ -53,7 +53,7 @@ Working Directory에 있는 파일들을 모두 Staging Area에 추가할 수 �
 첫 줄에 `a1s2d3f (HEAD -> develop) docs: readme 추가`라는 log가 찍혔다.
 알 수 있는 사실을 모두 적으시오.
 
-- 답:
+- 답: commit id, 최근 작업한 브랜치가 develope 이구나, 문서작업 했구나
 
 ### Q7
 
